@@ -1,3 +1,15 @@
 .borders {
     border: 1px solid #000;
 }
+
+@media (max-width: 768px) {
+    .container-project {
+        width: 80%;
+    }
+}
+
+@media (min-width: 769px) {
+    .container-project {
+        width: 75%;
+    }
+}
